@@ -1,0 +1,13 @@
+name: textplugin
+version: 1.0.0
+api: 4.0.0
+main: textplugin\Yugank\Main
+author: Yugank
+description: Description
+commands:
+  example:
+    description: Example command
+     usage: "/yugank"
+    aliases:
+    permission: exampleperm.command.example
+    permission-message: "You do not have permission to use this example command!"
